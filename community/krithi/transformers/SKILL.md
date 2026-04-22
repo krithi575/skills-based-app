@@ -1,4 +1,20 @@
 # Transformers Skill
+---
+name: transformers-huggingface
+description: >
+  Use this skill when the user asks to load, fine-tune, or run inference with
+  pre-trained transformer models using the Hugging Face transformers library.
+  Triggers include requests like "classify this text with BERT", "fine-tune GPT-2
+  on my dataset", "build a text summarization pipeline", "tokenize text for
+  transformers", or "run question answering with a pre-trained model". Also use
+  when the user asks about AutoTokenizer, AutoModel, Trainer API, or pipeline().
+  Do NOT use for CNNs, RNNs, NLTK, spaCy, or tasks that don't involve transformer
+  architecture or the Hugging Face library.
+version: "1.0"
+author: krithi
+tags: [transformers, nlp, huggingface, fine-tuning, python, deep-learning]
+license: MIT
+---
 
 ## When to use this skill
 Use this skill when the task involves:
